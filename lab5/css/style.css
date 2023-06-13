@@ -1,0 +1,33 @@
+body{
+    margin:0px;
+}
+
+header {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+header > nav > menu{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+header li{
+    list-style: none;
+    padding: 10px;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section + section{
+    display: grid;
+    grid-template-columns: repeat(5, 20%);
+    text-align: center;
+}
